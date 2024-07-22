@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(17, 17, 17, 1);
+
+}
+
+.sub-heading {
+
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+
+}
+
+.text {
+    color: white;
+}
+
+.sub-text {
+    color: #bbb;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 2rem;
+    color: #E6533C;
+
+}
+
+header {
+    padding-top: 58px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-b {
+    display: flex;
+
+}
+
+.b {
+    padding-right: 10px;
+
+
+}
+
+.b:hover {
+    background-color: #E6533C;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+/* design for banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-design {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 4.5rem;
+    font-weight: 520;
+}
+
+.btn-one {
+    background-color: #E6533C;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: white
+}
+
+.btn-two {
+    border: 2px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+
+
+/* second section */
+.section-section {
+    padding-top: 5rem;
+}
+
+.second-section {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.gap {
+    gap: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+main {
+    padding-top: 58px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #333;
+    border-radius: 20px;
+    color: #fff;
+    text-align: left;
+
+
+}
+
+.write {
+    padding-left: 2rem;
+
+}
+
+.main-img img {
+    width: 361px;
+    height: auto;
+
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+
+}
+
+.btn-gap {
+    padding-bottom: 15px;
+}
+
+/* Bmi */
+#bmi-heading{
+    align-items: center;
+    padding-top: 2rem;
+
+}
+.bmi-subheading{
+    align-items: center;
+    text-align: left;
+    padding-bottom: 2rem;
+    
+}
+
+.bmi-calculator {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #333;
+    border-radius: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.bmi-chart,
+.bmi-form {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.bmi-chart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bmi-chart th,
+.bmi-chart td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #fff;
+}
+
+.bmi-chart th {
+    background-color: #444;
+}
+
+.bmi-form h2,
+.bmi-form p {
+    margin-bottom: 20px;
+}
+
+.bmi-form input,
+.bmi-form select {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px 5px 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.bmi-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* trainer-code */
+
+
+.team-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+
+.team-section p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: #222;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #bbb;
+}
+
+/* footer */
+footer {
+    padding-top: 58px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.list-style {
+    list-style: none;
+    text-decoration: none;
+    color: #bbb;
+    gap: 10px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+.footer-logo{
+    font-weight: 5rem;
+    font-size: 4rem;
+    text-align: left;
+    color: #ff4500;
+
+}
+
+.last-one{
+    text-align: center;
+    border-top: 2px;
+    color: #bbb;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    header, main, footer{
+        margin-top: auto;
+        padding-top: 52px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .h1-design {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+    }
+
+    .sub-text {
+        font-size: 1rem;
+    }
+
+    .banner
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-one,
+    .btn-two {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .main-section{
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+
+    }
+    .img{
+        padding-left: 50px;
+    }
+
+    .second-section {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+        
+    }
+
+    .bmi-calculator{
+        flex-direction: column;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
